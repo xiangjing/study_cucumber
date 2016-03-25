@@ -32,11 +32,14 @@ public class test_board1 {
         dr1.findElement(By.className("quiet-button js-add-board"));
     }
 
-    @当("^input Title\"([^\"]*)\"and choice Team<arg(\\d+)>点击create$")
-    public void inputTitleAndChoiceTeamArg点击create(String arg0, int arg1) throws Throwable {
+    @当("^input Title\"([^\"]*)\"$")
+    public void inputTitle(String arg0) throws Throwable {
+
     }
 
     @那么("^创建成功$")
     public void 创建成功() throws Throwable {
     }
+
+
 }

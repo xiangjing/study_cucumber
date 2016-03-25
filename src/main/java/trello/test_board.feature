@@ -6,10 +6,11 @@
   场景大纲: 创建新的board
     假设 已经成功登录trello
     当 点击Creat new board
-    当 input Title"<arg0>"and choice Team<arg1>点击create
+    当 input Title"<newboard>"
     那么 创建成功
     例子:
-      | arg0 | arg1 |
-    |123   |123   |
+      | newboard |
+      | test1|
+
 
 
