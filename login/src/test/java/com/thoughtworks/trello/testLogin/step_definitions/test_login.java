@@ -35,7 +35,7 @@ public class test_login {
     @那么("^登录成功了$")
     public void 登录成功了() throws Throwable {
         if(dr.getCurrentUrl().equals("https://trello.com/") ){
-            System.out.println("通过");
+            System.out.println("通过啦");
         }
         else {
             System.out.println("不通过");
