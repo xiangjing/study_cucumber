@@ -1,4 +1,4 @@
-package trello;
+package step_definitions;
 
 import cucumber.api.java.zh_cn.ºŸ…Ë;
 import cucumber.api.java.zh_cn.µ±;
