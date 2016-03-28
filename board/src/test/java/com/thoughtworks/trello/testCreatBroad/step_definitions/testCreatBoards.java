@@ -47,6 +47,6 @@ public class testCreatBoards {
 
     @Then("^Creat success$")
     public void creatSuccess() throws Throwable {
-        System.out.print("创建成功");
+        System.out.print("创建成功啦");
     }
 }
