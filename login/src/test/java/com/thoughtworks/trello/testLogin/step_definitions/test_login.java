@@ -13,7 +13,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class test_login {
     WebDriver dr;
 
-
     @假设("^trello登录页面已经打开$")
     public void trello登录页面已经打开() throws Throwable {
         dr = new FirefoxDriver();
