@@ -1,4 +1,4 @@
-package step_definitions;
+package com.thoughtworks.trello.testCreatBroad;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
