@@ -1,4 +1,4 @@
-package com.thoughtworks.trello.addlist;
+package com.thoughtworks.trello.addCard;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;

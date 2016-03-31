@@ -6,5 +6,5 @@ Feature: test login
     And Click login
     Then login success
     Examples:
-      | arg0      | arg1     |
+      | arg0   | arg1   |
       | xiangjing_cuit@163.com | Xjay19911 |
