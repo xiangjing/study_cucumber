@@ -1,8 +1,10 @@
 package com.thoughtworks.trello.testCreatBroad;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -48,5 +50,17 @@ public class testCreatBoards {
     @Then("^Creat success$")
     public void creatSuccess() throws Throwable {
         System.out.print("创建成功啦");
+    }
+
+    @When("^Click create board enter the title\"([^\"]*)\" and select team\"([^\"]*)\" then click creat$")
+    public void clickCreateBoardEnterTheTitleAndSelectTeamThenClickCreat(String arg0, String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^Creat board success$")
+    public void creatBoardSuccess() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 }
